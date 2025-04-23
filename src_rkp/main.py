@@ -8,8 +8,8 @@
 
 from tkinter import *
 from sys import path
-from PlaceIcons import PlaceIcons
-import calculation as cal
+from PlaceIcons import PlaceIcons # type: ignore
+import calculation as cal # type: ignore
 path[0] = "D:\\Programming\\Projects\\Python\\GUI Projects\\Calculator"
 
 
